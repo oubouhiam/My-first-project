@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    background-image: url("media/imge.jpg");
+    background-size: cover;
+}
+.buimg
+{
+  
+  background-image: url("media/decor.jpg");
+  background-size: cover;
+}
+.deimg
+{
+  background-image: url("media/business.jpg");
+  background-size: cover;
+}
+.menu{
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+
+
+.menu li{
+   display: inline-block;
+   background: rgba(245, 229, 6, 0.603);
+   border-radius: 15px;
+   
+}
+
+.menu li :hover{
+  background-color: #e6e4e6;
+  border-radius: 15px;
+}
+
+.menu li a{
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700px;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+#img{
+   margin-left: 20px;
+   margin-top: -73px;
+}
+.share{
+  margin-left: 600px;
+  float: right;
+}
+.articl
+{
+  display: flex;
+}
+.titre
+{
+  font-family: "Bahnschrift";
+  margin-top: 100px;
+  margin-left: 100px;
+ 
+}
+.para
+{
+  margin-top: -450px;
+  margin-left: 60px;
+  margin-right: 650px;
+  font-family: "MV Boli";
+  font-size: 20px;
+}
+
+.bustitre
+{
+  background-color: #e6e4e6;
+  font-family: "Bahnschrift";
+  width: 550px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.buspara
+{
+  color: #000000;
+  font-family: "Bahnschrift";
+  margin-left: 40px;
+  margin-top: 30px;
+  
+ 
+}
+.busimg{
+  margin-right: 10px;
+  float: right;
+  margin-top: 80px;
+}
+h2{
+  text-shadow: 2px 0 0 #fff;
+}
+.decorimg{
+  position: relative;
+}
+.tableidea{
+  font-family: sans-serif;
+  font-size: 18px;
+  border: 3px solid rgba(255, 102, 0, 0.788);
+  border-radius: 10px;
+  border-collapse: collapse; 
+  margin-right: 380px;
+  float: right;
+  margin-top: 120px;
+}
+td{
+  font-family: sans-serif;
+  font-size: 18px;
+  border: 2px solid rgba(255, 102, 0, 0.788);
+  padding: 10px;
+  text-align: center;
+}
+th{
+  border: 2px solid rgba(255, 102, 0, 0.788);
+  padding: 10px;
+  background-color: rgba(245, 229, 6, 0.603);
+  color: black;
+}
+.titretableidea{
+  font-family: "Bahnschrift";
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.tablimage{
+  float: left;
+  margin-left: 30px;
+  margin-top: 90px;
+}
+}
+.container{
+	width:100%;
+	height:auto;
+}
+.about{
+	width:60%;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#textabout{
+	font-size: 20px;
+	color:rgb(0, 0, 0);
+	font-family: sans-serif;
+  text-shadow: 0px 4px 4px rgb(251, 255, 0);
+  margin-left: -280px;
+}
+.content{
+	width:100%;
+	height:auto;
+	background-color: #e7e30773;
+	font-size: 18px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color:rgb(0, 0, 0);
+	line-height: 30px;
+  text-align: center;
+  border-radius: 15px;
+}
+b{
+	font-size: 20px;
+	color:#000;
+	font-weight: 500px;
+}
+footer{
+	width:100%;
+	height: auto;
+	background-color: #333;
+	color: #ffffff;
+	font-size: 23px;
+	text-align: center;
+	line-height: 50px;
+}
